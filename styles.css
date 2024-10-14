@@ -1,0 +1,461 @@
+body {
+    margin: 0px;
+    background-color: rgba(137, 137, 137, 0.982);
+}
+
+.section1 {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(215, 215, 215);
+}
+
+.buttons {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.Home {
+    margin: 5px;
+}
+
+.Home :hover {
+    transform: scale(110%)
+}
+
+.QuizFight {
+    padding-left: 72%;
+    font-size: 30px;
+}
+
+.Mockups {
+    padding-left: 2%;
+    font-size: 30px;
+}
+
+.Portfolio {
+    padding-left: 2%;
+    font-size: 30px;
+}
+
+.section2 {
+    height: 300px;
+    background-color: rgb(172, 172, 172);
+    margin: 0px 0px 30px 0px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.box5 {
+    height: 70%;
+    width: 60%;
+    background-color:  rgba(137, 137, 137, 0.982);
+    border-radius: 20px;
+    text-align: center  ;
+    font-size: 100px;
+}
+
+.box5 p {
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.box5-1 {
+    font-size: 15px;
+    text-align: right;  
+    position: absolute;
+    top: 260px;
+    right: 320px;
+}
+
+.section3 {
+    display: flex;
+    height: 550px;
+}
+
+.box1 {
+    height: 500px;
+    width: 400px;
+    background-color: rgba(137, 137, 137, 0.982);
+    border-radius: 30px;
+    margin-left: 40px;
+}
+
+.box1-1 {
+    height: 20%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    margin:10px 20px 20px 0px;
+    text-align: center;
+}
+
+.box1-1 p {
+    line-height: 100px;
+    font-size: 40px;
+    margin: 0px;
+    font-style: oblique;
+}
+
+.box1-2{
+    height: 75%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    text-align: center;
+}
+
+.box1-2 p {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 19px;
+    margin-top: 0px;
+}
+
+.box2 {
+    height: 490px;
+    width: 500px;
+    margin:10px 50px 10px 50px ;
+    border-radius: 15px;
+    background-position: -100px;
+    background-image: url(Resources/Screenshot\ 2024-09-17\ 104855.png)
+}
+
+.box3 {
+    height: 490px;
+    width: 440px;
+    background-color: aliceblue;
+    margin:10px 10px 10px 10px ;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.box3 p {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 19px;
+    margin-top: 0px;
+}
+
+.section4{
+    height: 550px;
+    display: flex;
+}
+
+.box6 {
+    height: 500px;
+    width: 28%;
+    margin-left: 30px;
+    border-radius: 20px;
+    background-position: -100px;
+    background-image: url(Resources/Screenshot\ 2024-09-27\ 141752.png)
+}
+
+.box7 {
+    height: 500px;
+    width: 32%;
+    background-color: white;
+    margin-left: 42px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.box7 p {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 19px;
+    margin-top: 0px;
+}
+
+.box8 {
+    height: 500px;
+    width: 30%;
+    margin-left: 55px;
+    border-radius: 20px;
+    background-position: -400px 500px;
+    background-image: url(Resources/Screenshot\ 2024-09-27\ 142308.png);
+}
+
+.PYsection1{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.PYbox1{
+    height: 70%;
+    width: 50%;
+    background-color: rgb(255, 247, 30);
+    border-radius: 30px;
+    text-align: center;
+    font-size: 100px;
+}
+
+.PYbox1 p {
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.PYsection2{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+}
+
+.PYbox2 {
+    height: 500px;
+    width: 40%;
+    background-image: url(Resources/Screenshot\ 2024-09-27\ 155104.png);
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.PYbox3 {
+    height: 500px;
+    width: 40%;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center;
+}
+
+.PYbox3 p {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 19px;
+    margin-top: 0px;
+}
+
+.PYsection3 {
+    height: 800px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.PYbox4 {
+    height: 500px;
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    margin-top: 150px;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center;
+}
+
+.PYbox4 p {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 19px;
+    margin-top: 0px;
+}
+
+.PYbox5 {
+    height: 500px;
+    width: 40%;
+    background-position: -150px;
+    background-image: url(Resources/Screenshot\ 2024-09-27\ 155138.png);
+    border-radius: 15px;
+    margin-top: 150px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.MOCKsection1 {
+    height: 300px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MOCKbox1 {
+    height: 200px;
+    width: 60%;
+    background-color: rgb(255, 220, 254);
+    border-radius: 30px;
+    text-align: center;
+    font-size: 100px;
+}
+
+.MOCKbox1 p {
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.MOCKsection2{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+}
+
+.MOCKbox2 {
+    height: 500px;
+    width: 40%;
+    background-image: url(Resources/Screenshot\ 2024-09-27\ 160831.png);
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.MOCKbox3 {
+    height: 500px;
+    width: 40%;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center;
+}
+
+.MOCKbox3 p {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 19px;
+    margin-top: 0px;
+}
+
+.MOCKsection3 {
+    height: 800px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.MOCKbox4 {
+    height: 500px;
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    margin-top: 150px;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center;
+}
+
+.MOCKbox4 p {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 19px;
+    margin-top: 0px;
+}
+
+.MOCKbox5 {
+    height: 500px;
+    width: 40%;
+    background-position: -100px 50px;
+    background-image: url(Resources/Screenshot\ 2024-09-27\ 160858.png);
+    border-radius: 15px;
+    margin-top: 150px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.PORTsection1 {
+    height: 300px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PORTbox1 {
+    height: 200px;
+    width: 60%;
+    background-color: rgb(198, 247, 255);
+    border-radius: 30px;
+    text-align: center;
+    font-size: 100px;
+}
+
+.PORTbox1 p {
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.PORTsection2{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+}
+
+.PORTbox2 {
+    height: 500px;
+    width: 40%;
+    background-position: 0px -400px;
+    background-image: url(Resources/Screenshot\ 2024-09-27\ 161604.png);
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.PORTbox3 {
+    height: 500px;
+    width: 40%;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center;
+}
+
+.PORTbox3 p {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 19px;
+    margin-top: 0px;
+}
+
+.PORTsection3 {
+    height: 800px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.PORTbox4 {
+    height: 500px;
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    margin-top: 150px;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center;
+}
+
+.PORTbox4 p {
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 19   px;
+    margin-top: 0px;
+}
+
+.PORTbox5 {
+    height: 500px;
+    width: 40%;
+    background-image: url(Resources/Screenshot\ 2024-09-27\ 161627.png);
+    border-radius: 15px;
+    margin-top: 150px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
